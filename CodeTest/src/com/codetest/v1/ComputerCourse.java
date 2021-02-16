@@ -15,12 +15,9 @@ import java.util.regex.*;
 
 public class ComputerCourse {
 	
-	public static void main(String[] sd){
-		//System.out.println(bracketCheck("f://bracketCheck.txt"));
-		System.out.println(ipAddressCheck("f://ipCheck.txt"));
-	}
+
 	
-	public static List <Boolean> ipAddressCheck(String fileName){
+	public  List <Boolean> ipAddressCheck(String fileName){
 		
 		
         List<String> list = new ArrayList<>();
@@ -48,7 +45,7 @@ public class ComputerCourse {
 	}
 	
 	
-	public static boolean isValidIPAddress(String ip) 
+	public  boolean isValidIPAddress(String ip) 
     { 
   
 
@@ -81,7 +78,7 @@ public class ComputerCourse {
 	
 	
 	
-	public static List <Boolean> bracketCheck(String fileName){
+	public  List <Boolean> bracketCheck(String fileName){
 		
 		
 	        List<String> list = new ArrayList<>();
@@ -109,7 +106,7 @@ public class ComputerCourse {
 	
 	
 	
-	public static boolean isBalanced(String brackets) {
+	public  boolean isBalanced(String brackets) {
        
         Map<Character, Character> braces = new HashMap<>();
         braces.put('(', ')');

@@ -1,5 +1,6 @@
 package com.codetest.v1;
 
+import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 import java.util.Map;
@@ -11,6 +12,7 @@ public class StatisticsCourse {
 	
 	public StatisticsCourse() {
 		super();
+		employees=new ArrayList<Employee>();
 		employees.add(new Employee("Abc", "1", 41, 12334.90, "HR", null));
 		employees.add(new Employee("Xyz", "2", 23, 12334.90, "HR", null));
 		employees.add(new Employee("XABCyz", "3", 33, 12334.90, "HR", null));
